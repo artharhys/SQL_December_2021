@@ -239,7 +239,6 @@ as begin
     insert into nub values(s_nub.nextVal, pl, so, sysdate);
 end;
 /
-
 --Executes
 /
 execute p_i_account('petrucci', 1234, '1967-07-12', 'jp@dt.com', 2);
